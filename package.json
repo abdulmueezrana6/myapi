@@ -1,0 +1,10 @@
+{
+  "name": "my-api",
+  "version": "1.0.0",
+  "main": "api/todos.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {}
+}
