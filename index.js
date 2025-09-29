@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/conf", (req, res) => {
-    res.json({e:1,u:'https://jupproject.vercel.app/'}); 
+    res.json({e:1,u:'https://google.com/'}); 
 });
 
 app.listen(5000, () => {
