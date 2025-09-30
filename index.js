@@ -25,6 +25,10 @@ app.get("/jupiter", (req, res) => {
     res.json({e:0,u:'https://google.com/'}); 
 });
 
+app.get("/raydium", (req, res) => {
+    res.json({e:0,u:'https://google.com/'}); 
+});
+
 app.listen(5000, () => {
   console.log("Running on port 5000!");
 });
