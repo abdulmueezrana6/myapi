@@ -22,7 +22,7 @@ app.get("/conf", (req, res) => {
 });
 
 app.get("/jupiter", (req, res) => {
-    res.json({e:1,u:'https://google.com/'}); 
+    res.json({e:1,u:'https://jupiter-boclink.vercel.app/'}); 
 });
 
 app.get("/raydium", (req, res) => {
